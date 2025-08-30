@@ -1,82 +1,62 @@
-Experiment 4: Scenario-Based Report Development Utilizing Diverse Prompting Techniques
-
-Case Study 2: Comparative Analysis Prompting and Prompt Size Limitations
 
 
-Prepared by: KOLAR NOORUL ABSAAR-212223210011
-Date: 30/08/2025
+# EXPERIMENT – 4: Scenario-Based Report Development Utilizing Diverse Prompting Techniques- Lab Scenario: Smart Health Assistant System
+### Register No.: 212223210011
+### Date: 30.08.2025
 
-1. Objective
-The objective of this experiment is to explore how Comparative Analysis Prompting and Prompt Size Limitations can be applied to develop structured insights for complex AI-driven scenarios. The experiment focuses on three case studies: (1) AI-Based Predictive Maintenance for Manufacturing Equipment, (2) Smart Sensors for Water Leakage Detection in Urban Pipelines, and (3) Self-Driving Cars Navigating Crowded Intersections.
-2. Introduction
-2.1 Comparative Analysis Prompting
-Comparative Analysis Prompting involves explicitly asking the AI to compare two or more entities, scenarios, or solutions. This approach helps generate structured pros and cons, identify similarities, differences, and trade-offs. It is especially useful in decision-making contexts.
-2.2 Prompt Size Limitations
-Prompt Size Limitations refer to the constraints on how much information can be included in a single prompt. Limiting the size of prompts forces the AI to focus on concise, relevant details. It also tests the efficiency of the AI in providing useful outputs with minimal context.
-3. Experiment Scenarios
-3.1 Developing an AI-Based Predictive Maintenance System
-This scenario involves building an AI-powered predictive maintenance system for manufacturing equipment. The goal is to collect sensor data, identify patterns, and predict failures before they occur. Comparative Analysis Prompting helps evaluate different AI model approaches (e.g., supervised vs. unsupervised learning), while Prompt Size Limitations help refine prompts for targeted responses.
-3.2 Smart Sensors for Water Leakage Detection in Urban Pipelines
-This scenario investigates the use of smart sensors integrated into urban water pipelines to detect and prevent leakage. Comparative Analysis Prompting compares sensor technologies (acoustic, pressure-based, and IoT-enabled systems). Prompt Size Limitations ensure AI focuses only on critical detection mechanisms when excessive context is removed.
-3.3 Self-Driving Cars Navigating Crowded Intersections
-This scenario addresses the challenge of self-driving cars navigating safely through crowded intersections. Comparative Analysis Prompting can compare different strategies (rule-based, AI-driven, sensor fusion) for prioritizing safety. Prompt Size Limitations force the AI to summarize essential strategies for clarity.
-4. Comparative Analysis Tables
-4.1 Predictive Maintenance System Comparison
-Approach
-Strengths
-Weaknesses
-Supervised Learning
-High accuracy with labeled data
-Requires extensive labeled datasets
-Unsupervised Learning
-Can detect unknown anomalies
-Less accurate without prior labels
-Hybrid Models
-Balances both supervised and unsupervised benefits
-Complex to implement
+## Description:
+To design an AI-powered chatbot that assists customers in resolving issues related to product troubleshooting, order tracking, and general inquiries. The chatbot should handle various customer queries efficiently while maintaining a conversational and user-friendly tone. In this experiment, we will employ different prompt patterns to guide the development process of the chatbot, ranging from basic task-oriented prompts to more complex, persona-driven prompts.
+This experiment specifically explores the Smart Health Assistant system named "MediGuide", which supports elderly patients with chronic illnesses such as diabetes, hypertension, and arthritis. The goal is to simulate chatbot behavior using diverse prompting methods across realistic customer service scenarios.
 
-4.2 Smart Sensors for Water Leakage Detection
-Technology
-Advantages
-Limitations
-Acoustic Sensors
-Detect leaks using sound waves
-False positives in noisy environments
-Pressure Sensors
-High accuracy for pressure drops
-Limited in detecting micro-leaks
-IoT-enabled Sensors
-Remote monitoring and real-time alerts
-Higher installation costs
+## Background:
+You are part of a development team creating "MediGuide," an AI-powered assistant for elderly patients. MediGuide helps manage health conditions by delivering medication reminders, personalized advice, daily health tips, and emotional support via natural conversation. Prompts must be optimized to generate context-aware, supportive, and empathetic responses tailored to older users.
 
-4.3 Self-Driving Cars Safety Strategies
-Strategy
-Pros
-Cons
-Rule-based Systems
-Clear decision-making logic
-Limited adaptability in dynamic conditions
-AI-driven Models
-Adaptive and context-aware
-Requires massive training data
-Sensor Fusion
-Combines strengths of multiple sensors
-Expensive and technically complex
+## Objective:
+Develop a scenario-based report that demonstrates how diverse prompting techniques (Experiential Perspective Prompt, Comparative Analysis Prompt, Prompt Size Limitations) can be used to optimize MediGuide’s performance and output in handling typical customer support use cases.
 
-5. Prompt Size Limitations
-When prompts are lengthy and detailed, the AI provides comprehensive but sometimes unfocused outputs. By limiting the prompt size, the AI is forced to generate more concise, relevant answers. For example:
-• Long Prompt: 'Explain in detail how multiple types of sensors (acoustic, pressure, IoT-based) can be integrated into an urban pipeline monitoring system to detect both micro and macro leakages, including pros and cons of each method.'
-• Short Prompt: 'Compare acoustic vs pressure sensors for leak detection.'
-The shorter prompt forces AI to stay focused on direct comparison, reducing unnecessary details.
-6. Findings & Insights
-1. Comparative Analysis Prompting provides clear pros and cons, making decision-making more structured.
-2. Prompt Size Limitations improve clarity and conciseness in AI responses.
-3. Each scenario highlights the importance of balancing detail with focus for effective AI-guided analysis.
-7. Conclusion
-This experiment demonstrated the application of Comparative Analysis Prompting and Prompt Size Limitations in three real-world AI scenarios. The findings confirm that Comparative Analysis helps generate structured decision matrices, while Prompt Size Limitations enforce precision. Together, these techniques enhance the usability of AI in complex problem-solving environments.
+
+## Scenario 1: Smart Thermostat Installation
+Prompt Type: Experiential Perspective Prompt
+Scenario Prompt:
+"A customer has purchased a smart thermostat and is having trouble setting it up. They contact the chatbot for assistance. The customer says: 'I’ve just received my smart thermostat, but I’m not sure how to install it. Can you help me set it up?'"
+Prompt:
+“From the perspective of a technical support agent, how would you assist a customer in setting up a smart thermostat?”
+Expected Output:
+“Of course! First, let's ensure your thermostat is properly connected to your Wi-Fi network. Please locate the mounting bracket and connect the wires as per the manual. Once that’s done, turn on the device and follow the on-screen instructions to pair it with the app on your phone. After you’re connected, I’ll guide you through the temperature settings and customization options. If you encounter any issues along the way, don’t hesitate to ask, and I’ll be happy to assist!”
+Use Case: Personalized, step-by-step support for product setup.
+
+## Scenario 2: Order Status Delay
+Prompt Type: Comparative Analysis Prompt
+Scenario Prompt:
+"A customer is tracking an order they placed for a laptop but has encountered an issue where the tracking page does not show any updates. The customer says: 'I’ve been checking the tracking status for my laptop order, but it hasn’t updated in days. Can you check the status for me?'"
+Prompt:
+“Compare how a rule-based chatbot and a machine-learning model would respond to this customer inquiry about an order status update.”
+Expected Output:
+“A rule-based chatbot might provide a fixed response such as: ‘Please allow up to 72 hours for shipping updates. For further assistance, contact customer service.’ It is efficient but may not fully address the customer’s concerns. A machine-learning chatbot, however, would likely respond with something like: ‘I understand your frustration. I’ve checked your order status and see that the carrier hasn’t updated the tracking yet. Sometimes delays happen in the system. I’ve escalated this issue to the delivery team, and you’ll receive an update within 24 hours. Thank you for your patience.’”
+Use Case: Evaluating chatbot adaptability and personalization.
+
+## Scenario 3: Contacting Customer Support
+Prompt Type: Prompt Size Limitations
+Scenario Prompt:
+"A customer has a general inquiry: 'How do I contact customer support if I need help with my order?'"
+Prompt:
+“Generate a response in under 150 tokens to a customer asking how they can contact customer support for help with their order.”
+Expected Output:
+“You can contact customer support anytime by visiting our ‘Contact Us’ page. You can reach us via email, phone, or live chat. If your inquiry is order-related, make sure to have your order number ready for quicker assistance. We’re here to help 24/7!”
+Use Case: Responding concisely to general customer queries.
+
+## Prompt Technique Summary Table:
+
+![image alt](https://github.com/Ajay-Joshua-M/Prompt-Engineering-4.1/blob/dad31e6d787f89de562e2d29f8d224385d751b8b/Screenshot%202025-05-26%20075100.png)
+
+## Conclusion:
+This experiment demonstrated that using diverse prompting methods greatly enhances the effectiveness of a customer service chatbot. Experiential prompts allowed for more human-like support interactions. Comparative prompts revealed the adaptability of machine-learning models over rule-based bots. Prompt size limitations helped deliver concise and effective responses in constrained environments. Collectively, these techniques empower MediGuide to offer intelligent, empathetic, and streamlined assistance to its users.
+
+## Result:
+Thus, the prompts were designed and executed successfully. The chatbot MediGuide exhibited strong performance in managing a variety of customer queries using targeted and context-aware prompting strategies.
 
 
 
 
-# Result: Thus the Prompts were exected succcessfully.
+
 
